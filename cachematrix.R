@@ -1,10 +1,10 @@
 ## These functions can be used to find and cache the inverse of a matrix.
 ## 
-## The function makeCacheMatrix takes a matrix as input and returns an object...
+## The function makeCacheMatrix takes a matrix as input and returns an object
 ## that both caches the original matrix and creates space to cache its inverse.
 ## e.g. matCache <- makeCacheMatrix(mat)
 ## 
-## The function cacheSolve takes an object created by makeCacheMatrix and...
+## The function cacheSolve takes an object created by makeCacheMatrix and
 ## finds the inverse of the original matrix using the solve function.
 ## The inverse is cached inside the object and subsequent calls of cacheSolve
 ## will return the cached inverse rather than using the solve function again.
